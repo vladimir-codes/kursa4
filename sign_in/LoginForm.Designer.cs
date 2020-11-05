@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.LabelClose = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -45,6 +46,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.panel2);
             this.panel3.Controls.Add(this.LoginButton);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -170,6 +172,21 @@
             this.panel1.Size = new System.Drawing.Size(318, 49);
             this.panel1.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(38)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(55, 249);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(196, 68);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Продолжить без авторизации";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,6 +219,7 @@
         private System.Windows.Forms.TextBox PassBox;
         private System.Windows.Forms.TextBox LoginBox;
         private System.Windows.Forms.Label LoginLabel;
+        private System.Windows.Forms.Button button1;
     }
 }
 
