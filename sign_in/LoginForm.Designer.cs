@@ -57,7 +57,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(318, 304);
             this.panel3.TabIndex = 3;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             this.panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseDown);
             this.panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseMove);
             // 
@@ -124,7 +123,6 @@
             this.LoginBox.Name = "LoginBox";
             this.LoginBox.Size = new System.Drawing.Size(196, 25);
             this.LoginBox.TabIndex = 1;
-            this.LoginBox.TextChanged += new System.EventHandler(this.LoginBox_TextChanged);
             this.LoginBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LoginBox_KeyDown);
             // 
             // LoginLabel
