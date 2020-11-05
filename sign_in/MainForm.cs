@@ -103,7 +103,17 @@ namespace sign_in
             form.Show();
             this.Hide();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            string OPS = textBox1.Text;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("D:/POCHTA/Свод готовый.xlsx");
+
+        }
     }
 
 }
-
