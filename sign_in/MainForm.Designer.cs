@@ -34,9 +34,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button_exit = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button_exit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -142,22 +142,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(128, 412);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
-            // button_exit
-            // 
-            this.button_exit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_exit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_exit.Font = new System.Drawing.Font("Calibri", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_exit.ForeColor = System.Drawing.Color.White;
-            this.button_exit.Location = new System.Drawing.Point(10, 263);
-            this.button_exit.Margin = new System.Windows.Forms.Padding(0);
-            this.button_exit.Name = "button_exit";
-            this.button_exit.Size = new System.Drawing.Size(108, 136);
-            this.button_exit.TabIndex = 4;
-            this.button_exit.Text = "Выйти";
-            this.button_exit.UseVisualStyleBackColor = true;
-            this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
-            // 
             // button3
             // 
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -190,6 +174,22 @@
             this.button1.Text = "Заказы";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button_exit
+            // 
+            this.button_exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_exit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_exit.Font = new System.Drawing.Font("Calibri", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_exit.ForeColor = System.Drawing.Color.White;
+            this.button_exit.Location = new System.Drawing.Point(10, 263);
+            this.button_exit.Margin = new System.Windows.Forms.Padding(0);
+            this.button_exit.Name = "button_exit";
+            this.button_exit.Size = new System.Drawing.Size(108, 136);
+            this.button_exit.TabIndex = 4;
+            this.button_exit.Text = "Выйти";
+            this.button_exit.UseVisualStyleBackColor = true;
+            this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
             // 
             // MainForm
             // 

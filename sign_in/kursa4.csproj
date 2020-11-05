@@ -121,6 +121,7 @@
   <ItemGroup>
     <Content Include="images\1200px-Multiplication_Sign.svg.png" />
     <Content Include="images\Иконка_крестика_%28ei%29.svg.png" />
+    <Content Include="Resources\f56c47fa0243a492e1ca64ec76e0af52.png" />
     <None Include="Resources\Website-Minimize-512.png" />
     <None Include="Resources\kisspng-window-computer-icons-user-property-icon-5b16567eb07176.7461512515281905907227.jpg" />
     <None Include="Resources\707154_copy_512x512.png" />
