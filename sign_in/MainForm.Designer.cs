@@ -56,7 +56,7 @@
             this.button1.Location = new System.Drawing.Point(10, 0);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 124);
+            this.button1.Size = new System.Drawing.Size(108, 124);
             this.button1.TabIndex = 3;
             this.button1.Text = "Заказы";
             this.button1.UseVisualStyleBackColor = false;
@@ -72,7 +72,7 @@
             this.button_exit.Location = new System.Drawing.Point(10, 291);
             this.button_exit.Margin = new System.Windows.Forms.Padding(0);
             this.button_exit.Name = "button_exit";
-            this.button_exit.Size = new System.Drawing.Size(105, 151);
+            this.button_exit.Size = new System.Drawing.Size(108, 151);
             this.button_exit.TabIndex = 4;
             this.button_exit.Text = "Выйти";
             this.button_exit.UseVisualStyleBackColor = true;
@@ -109,7 +109,7 @@
             this.button3.Location = new System.Drawing.Point(10, 124);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 167);
+            this.button3.Size = new System.Drawing.Size(108, 167);
             this.button3.TabIndex = 5;
             this.button3.Text = "Калькулятор";
             this.button3.UseVisualStyleBackColor = true;

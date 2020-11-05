@@ -38,6 +38,7 @@ namespace sign_in
             }
         }
 
+
         private void panel3_MouseDown(object sender, MouseEventArgs e)
         {
             lastPos = new Point(e.X , e.Y);
@@ -120,6 +121,16 @@ namespace sign_in
             this.Hide();
             MainForm form = new MainForm();
             form.Show();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void LoginBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 
